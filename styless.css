@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    background-color: #a4d2ff; /* Warna latar belakang */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Header Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Main Content Styles */
+h1 {
+    color: #0004ff; /* Warna judul utama */
+}
+
+.btn-back {
+    margin-bottom: 20px;
+}
+
+.car-details {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.car-details h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.car-details p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.car-price {
+    font-size: 1.5em;
+    color: #28a745; /* Warna harga */
+    margin-top: 10px;
+}
+
+.car-image {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.car-image:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .car-details {
+        padding: 15px;
+    }
+
+    .car-details h2 {
+        font-size: 1.3em;
+    }
+
+    .car-details p {
+        font-size: 1em;
+    }
+
+    .car-price {
+        font-size: 1.3em;
+    }
+}
